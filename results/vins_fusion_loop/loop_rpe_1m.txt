@@ -1,0 +1,42 @@
+--------------------------------------------------------------------------------
+Loaded 36382 stamps and poses from: mh01_groundtruth.tum
+Loaded 1092 stamps and poses from: vins_loop_mh01_est.tum
+--------------------------------------------------------------------------------
+Synchronizing trajectories (nearest_time method)...
+Timestamps are sorted, using binary search for matching.
+Found 1086 of max. 1092 possible matching timestamps between...
+	mh01_groundtruth.tum
+and:	vins_loop_mh01_est.tum
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[-0.88294647 -0.46943795  0.00579153]
+ [ 0.46947079 -0.88291709  0.00738857]
+ [ 0.00164497  0.00924266  0.99995593]]
+Translation of alignment:
+[ 4.7360131  -1.78635989  0.95380176]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Found 75 pairs with delta 1.0 (m) among 1086 poses using consecutive pairs.
+Compared 75 relative pose pairs, delta = 1.0 (m) with consecutive pairs.
+Calculating RPE for translation part pose relation...
+--------------------------------------------------------------------------------
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using consecutive pairs
+(with SE(3) Umeyama alignment)
+
+       max	0.063840
+      mean	0.029908
+    median	0.029250
+       min	0.003574
+      rmse	0.033076
+       sse	0.082049
+       std	0.014125
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plot saved to loop_rpe_1m_plot_raw.png
+Plot saved to loop_rpe_1m_plot_map.png
+--------------------------------------------------------------------------------
+Saving results to loop_rpe_1m_results.zip...

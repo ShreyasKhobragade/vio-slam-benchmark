@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------------
+Loaded 36382 stamps and poses from: mh01_groundtruth.tum
+Loaded 2754 stamps and poses from: orbslam3_mh01_est.tum
+--------------------------------------------------------------------------------
+Synchronizing trajectories (nearest_time method)...
+Timestamps are sorted, using binary search for matching.
+Found 2732 of max. 2754 possible matching timestamps between...
+	mh01_groundtruth.tum
+and:	orbslam3_mh01_est.tum
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[-0.32629693  0.1552701  -0.93242775]
+ [ 0.05438628  0.98786672  0.14546981]
+ [ 0.94370146 -0.00324492 -0.33078244]]
+Translation of alignment:
+[ 4.49785324 -1.49560908  0.77187916]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 2732 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max	0.223773
+      mean	0.060309
+    median	0.055522
+       min	0.002866
+      rmse	0.072873
+       sse	14.508074
+       std	0.040906
+
+--------------------------------------------------------------------------------
+Saving results to ape_results.zip...

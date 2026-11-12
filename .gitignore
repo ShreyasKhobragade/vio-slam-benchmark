@@ -1,0 +1,9 @@
+# dataset (MH_01_easy: 2.7 GB ASL + 1.6 GB bag), see tools/get_data.sh
+data/
+# upstream checkouts and builds (VINS-Fusion, ORB_SLAM3, Pangolin + install prefix), see docs/
+third_party/
+# raw run outputs, regenerated GT, binaries, recordings / palettes
+outputs/
+.venv
+__pycache__/
+*.pyc

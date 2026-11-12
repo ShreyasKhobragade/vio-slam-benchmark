@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+Loaded 36382 stamps and poses from: mh01_groundtruth.tum
+Loaded 1831 stamps and poses from: vins_mh01_est.tum
+--------------------------------------------------------------------------------
+Synchronizing trajectories (nearest_time method)...
+Timestamps are sorted, using binary search for matching.
+Found 1819 of max. 1831 possible matching timestamps between...
+	mh01_groundtruth.tum
+and:	vins_mh01_est.tum
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[-0.87563742 -0.48290207 -0.00804405]
+ [ 0.482968   -0.87554888 -0.01249297]
+ [-0.00101008 -0.01482433  0.9998896 ]]
+Translation of alignment:
+[ 4.65912255 -1.56249215  0.91872142]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 1819 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max	0.415883
+      mean	0.155405
+    median	0.133631
+       min	0.013707
+      rmse	0.180709
+       sse	59.400861
+       std	0.092223
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plot saved to ape_plot_raw.png
+Plot saved to ape_plot_map.png
+--------------------------------------------------------------------------------
+Saving results to ape_results.zip...

@@ -1,0 +1,38 @@
+--------------------------------------------------------------------------------
+Loaded 36382 stamps and poses from: ~/vio-slam-benchmark/outputs/mh01_groundtruth.tum
+Loaded 1377 stamps and poses from: ~/vio-slam-benchmark/results/common_window/vins_mh01_est_cropped.tum
+--------------------------------------------------------------------------------
+Synchronizing trajectories (nearest_time method)...
+Timestamps are sorted, using binary search for matching.
+Found 1366 of max. 1377 possible matching timestamps between...
+	~/vio-slam-benchmark/outputs/mh01_groundtruth.tum
+and:	~/vio-slam-benchmark/results/common_window/vins_mh01_est_cropped.tum
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[-8.81578206e-01 -4.72008072e-01 -5.31484494e-03]
+ [ 4.72037993e-01 -8.81522209e-01 -9.93615947e-03]
+ [ 4.79361667e-06 -1.12683104e-02  9.99936511e-01]]
+Translation of alignment:
+[ 4.71789729 -1.44465097  0.91970498]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Found 70 pairs with delta 1.0 (m) among 1366 poses using consecutive pairs.
+Compared 70 relative pose pairs, delta = 1.0 (m) with consecutive pairs.
+Calculating RPE for translation part pose relation...
+--------------------------------------------------------------------------------
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using consecutive pairs
+(with SE(3) Umeyama alignment)
+
+       max	0.095653
+      mean	0.032662
+    median	0.028949
+       min	0.002961
+      rmse	0.037080
+       sse	0.096246
+       std	0.017554
+
+--------------------------------------------------------------------------------
+Saving results to vins_cropped_rpe_1m_results.zip...

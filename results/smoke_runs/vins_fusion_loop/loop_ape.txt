@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+Loaded 36382 stamps and poses from: ~/vio-slam-benchmark/outputs/mh01_groundtruth.tum
+Loaded 1094 stamps and poses from: ~/vio-slam-benchmark/outputs/smoke/vins_eval/vins_loop_mh01_est.tum
+--------------------------------------------------------------------------------
+Synchronizing trajectories (nearest_time method)...
+Timestamps are sorted, using binary search for matching.
+Found 1088 of max. 1094 possible matching timestamps between...
+	~/vio-slam-benchmark/outputs/mh01_groundtruth.tum
+and:	~/vio-slam-benchmark/outputs/smoke/vins_eval/vins_loop_mh01_est.tum
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[-0.88327973 -0.46881203  0.00567455]
+ [ 0.46884385 -0.88324995  0.0074141 ]
+ [ 0.00153622  0.0092092   0.99995641]]
+Translation of alignment:
+[ 4.73546717 -1.78609864  0.95353357]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 1088 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max	0.120142
+      mean	0.055922
+    median	0.055069
+       min	0.000884
+      rmse	0.061385
+       sse	4.099667
+       std	0.025315
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plot saved to loop_ape_plot_raw.png
+Plot saved to loop_ape_plot_map.png
+--------------------------------------------------------------------------------
+Saving results to loop_ape_results.zip...

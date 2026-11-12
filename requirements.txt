@@ -1,0 +1,5 @@
+# evaluation + README figures (Python 3.13.5)
+evo==1.38.1
+matplotlib==3.11.2
+numpy==2.5.4
+scipy==1.18.1

@@ -1,0 +1,42 @@
+--------------------------------------------------------------------------------
+Loaded 36382 stamps and poses from: ~/vio-slam-benchmark/outputs/mh01_groundtruth.tum
+Loaded 1831 stamps and poses from: ~/vio-slam-benchmark/outputs/smoke/vins_eval/vins_odom_mh01_est.tum
+--------------------------------------------------------------------------------
+Synchronizing trajectories (nearest_time method)...
+Timestamps are sorted, using binary search for matching.
+Found 1819 of max. 1831 possible matching timestamps between...
+	~/vio-slam-benchmark/outputs/mh01_groundtruth.tum
+and:	~/vio-slam-benchmark/outputs/smoke/vins_eval/vins_odom_mh01_est.tum
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[-0.87563742 -0.48290207 -0.00804405]
+ [ 0.482968   -0.87554888 -0.01249297]
+ [-0.00101008 -0.01482433  0.9998896 ]]
+Translation of alignment:
+[ 4.65912255 -1.56249215  0.91872142]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Found 78 pairs with delta 1.0 (m) among 1819 poses using consecutive pairs.
+Compared 78 relative pose pairs, delta = 1.0 (m) with consecutive pairs.
+Calculating RPE for translation part pose relation...
+--------------------------------------------------------------------------------
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using consecutive pairs
+(with SE(3) Umeyama alignment)
+
+       max	0.096822
+      mean	0.030018
+    median	0.029564
+       min	0.001889
+      rmse	0.034053
+       sse	0.090452
+       std	0.016081
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plot saved to odom_rpe_1m_plot_raw.png
+Plot saved to odom_rpe_1m_plot_map.png
+--------------------------------------------------------------------------------
+Saving results to odom_rpe_1m_results.zip...

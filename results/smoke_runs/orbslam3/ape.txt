@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------------
+Loaded 36382 stamps and poses from: ~/vio-slam-benchmark/outputs/mh01_groundtruth.tum
+Loaded 3551 stamps and poses from: ~/vio-slam-benchmark/outputs/smoke/orb_eval/orbslam3_mh01_est.tum
+--------------------------------------------------------------------------------
+Synchronizing trajectories (nearest_time method)...
+Timestamps are sorted, using binary search for matching.
+Found 3529 of max. 3551 possible matching timestamps between...
+	~/vio-slam-benchmark/outputs/mh01_groundtruth.tum
+and:	~/vio-slam-benchmark/outputs/smoke/orb_eval/orbslam3_mh01_est.tum
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[-0.50080784  0.39659351 -0.76935369]
+ [ 0.23645885  0.91772865  0.31915722]
+ [ 0.83263361 -0.02208405 -0.55338374]]
+Translation of alignment:
+[ 4.72572831 -1.77186496  0.84204256]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 3529 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max	0.150269
+      mean	0.022598
+    median	0.018265
+       min	0.001945
+      rmse	0.027369
+       sse	2.643399
+       std	0.015440
+
+--------------------------------------------------------------------------------
+Saving results to ape_results.zip...

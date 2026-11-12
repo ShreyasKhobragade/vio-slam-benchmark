@@ -1,0 +1,4 @@
+# Thin layer on top of the upstream ros:vins-fusion image that adds RViz,
+# so roscore, rviz and vins all run in containers (host has no ROS1).
+FROM ros:vins-fusion
+RUN apt-get update && apt-get install -y ros-kinetic-rviz && rm -rf /var/lib/apt/lists/*

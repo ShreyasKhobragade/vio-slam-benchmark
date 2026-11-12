@@ -1,0 +1,38 @@
+--------------------------------------------------------------------------------
+Loaded 36382 stamps and poses from: ~/vio-slam-benchmark/outputs/mh01_groundtruth.tum
+Loaded 3551 stamps and poses from: ~/vio-slam-benchmark/outputs/smoke/orb_eval/orbslam3_mh01_est.tum
+--------------------------------------------------------------------------------
+Synchronizing trajectories (nearest_time method)...
+Timestamps are sorted, using binary search for matching.
+Found 3529 of max. 3551 possible matching timestamps between...
+	~/vio-slam-benchmark/outputs/mh01_groundtruth.tum
+and:	~/vio-slam-benchmark/outputs/smoke/orb_eval/orbslam3_mh01_est.tum
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[-0.50080784  0.39659351 -0.76935369]
+ [ 0.23645885  0.91772865  0.31915722]
+ [ 0.83263361 -0.02208405 -0.55338374]]
+Translation of alignment:
+[ 4.72572831 -1.77186496  0.84204256]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Found 78 pairs with delta 1.0 (m) among 3529 poses using consecutive pairs.
+Compared 78 relative pose pairs, delta = 1.0 (m) with consecutive pairs.
+Calculating RPE for rotation angle in degrees pose relation...
+--------------------------------------------------------------------------------
+RPE w.r.t. rotation angle in degrees (deg)
+for delta = 1.0 (m) using consecutive pairs
+(with SE(3) Umeyama alignment)
+
+       max	0.319127
+      mean	0.109789
+    median	0.094375
+       min	0.021578
+      rmse	0.123541
+       sse	1.190475
+       std	0.056646
+
+--------------------------------------------------------------------------------
+Saving results to rpe_1m_rot_results.zip...
